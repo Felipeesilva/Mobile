@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".CadastroActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Adicionar Carro"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etMarca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Marca"
+        android:inputType="textPersonName"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        tools:layout_editor_absoluteX="20dp" />
+
+    <EditText
+        android:id="@+id/etModelo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Modelo"
+        android:inputType="textPersonName"
+        app:layout_constraintTop_toBottomOf="@+id/etMarca"
+        tools:layout_editor_absoluteX="20dp" />
+
+    <EditText
+        android:id="@+id/etFabricacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Ano de fabricação"
+        android:inputType="number"
+        app:layout_constraintTop_toBottomOf="@+id/etModelo"
+        tools:layout_editor_absoluteX="20dp" />
+
+    <EditText
+        android:id="@+id/etCor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Cor do carro"
+        android:inputType="textPersonName"
+        app:layout_constraintTop_toBottomOf="@+id/etFabricacao"
+        tools:layout_editor_absoluteX="20dp" />
+
+    <EditText
+        android:id="@+id/etMotor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Motor"
+        android:inputType="numberDecimal"
+        app:layout_constraintTop_toBottomOf="@+id/etCor"
+        tools:layout_editor_absoluteX="20dp" />
+
+    <EditText
+        android:id="@+id/etCombustivel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Combustível"
+        android:inputType="textPersonName"
+        app:layout_constraintTop_toBottomOf="@+id/etMotor"
+        tools:layout_editor_absoluteX="20dp" />
+
+    <EditText
+        android:id="@+id/etFipe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="FIPE"
+        android:inputType="number"
+        app:layout_constraintTop_toBottomOf="@+id/etCombustivel"
+        tools:layout_editor_absoluteX="20dp" />
+
+    <Button
+        android:id="@+id/bCadastrar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:text="Cadastrar "
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@+id/etFipe"
+        tools:layout_editor_absoluteX="20dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
