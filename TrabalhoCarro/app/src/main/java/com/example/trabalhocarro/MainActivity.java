@@ -31,6 +31,12 @@ public class MainActivity extends AppCompatActivity {
         fabAdd.setOnClickListener(v -> {
             startActivity(new Intent(this, CadastroActivity.class));
         });
+
+        lvCarros.setOnItemClickListener((adapterView, view, i, l) -> {
+            Intent detalhesIntent = new Intent(this, DetalhesActivity.class);
+            detalhesIntent.putExtra("i", i);
+            startActivity(detalhesIntent);
+        });
     }
 
     @Override

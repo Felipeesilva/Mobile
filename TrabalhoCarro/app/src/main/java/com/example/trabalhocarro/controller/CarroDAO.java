@@ -16,4 +16,7 @@ public class CarroDAO {
     public List<Carro> getListaCarros(){
         return listaCarros;
     }
+
+    public Carro getCarro(int i) { return listaCarros.get(i); }
+
 }

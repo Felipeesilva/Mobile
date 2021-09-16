@@ -4,7 +4,7 @@ public class Carro {
 
     private String marca;
     private String modelo;
-    private int fabricacao;
+    private String fabricacao;
     private String cor;
     private float motor;
     private String combustivel;
@@ -13,7 +13,7 @@ public class Carro {
     public Carro() {
     }
 
-    public Carro(String marca, String modelo, int fabricacao, String cor, float motor, String combustivel, float fipe) {
+    public Carro(String marca, String modelo, String fabricacao, String cor, float motor, String combustivel, float fipe) {
         this.marca = marca;
         this.modelo = modelo;
         this.fabricacao = fabricacao;
@@ -39,11 +39,11 @@ public class Carro {
         this.modelo = modelo;
     }
 
-    public int getFabricacao() {
+    public String getFabricacao() {
         return fabricacao;
     }
 
-    public void setFabricacao(int fabricacao) {
+    public void setFabricacao(String fabricacao) {
         this.fabricacao = fabricacao;
     }
 

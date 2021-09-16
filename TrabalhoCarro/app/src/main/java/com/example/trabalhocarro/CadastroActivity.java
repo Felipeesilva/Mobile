@@ -53,7 +53,7 @@ public class CadastroActivity extends AppCompatActivity {
                 Carro carro = new Carro(
                         etMarca.getText().toString(),
                         etModelo.getText().toString(),
-                        Integer.parseInt(etFabriacacao.getText().toString()),
+                        etFabriacacao.getText().toString(),
                         etCor.getText().toString(),
                         Float.parseFloat(etMotor.getText().toString()),
                         etCombustivel.getText().toString(),
