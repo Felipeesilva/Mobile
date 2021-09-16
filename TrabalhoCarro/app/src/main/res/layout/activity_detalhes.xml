@@ -13,7 +13,7 @@
         android:layout_height="40dp"
         android:layout_marginTop="10dp"
         android:text="TextView"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         app:layout_constraintTop_toBottomOf="@+id/tvFabricacao"
         tools:layout_editor_absoluteX="-1dp" />
 
@@ -23,7 +23,7 @@
         android:layout_height="40dp"
         android:layout_marginTop="10dp"
         android:text="TextView"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         app:layout_constraintTop_toBottomOf="@+id/tvModelo"
         tools:layout_editor_absoluteX="-12dp" />
 
@@ -33,7 +33,7 @@
         android:layout_height="40dp"
         android:layout_marginTop="10dp"
         android:text="TextView"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         app:layout_constraintTop_toBottomOf="@+id/tvCor"
         tools:layout_editor_absoluteX="20dp" />
 
@@ -43,7 +43,7 @@
         android:layout_height="40dp"
         android:layout_marginTop="10dp"
         android:text="TextView"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         app:layout_constraintTop_toBottomOf="@+id/textView3"
         tools:layout_editor_absoluteX="-33dp" />
 
@@ -64,7 +64,7 @@
         android:layout_height="40dp"
         android:layout_marginTop="10dp"
         android:text="TextView"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         app:layout_constraintTop_toBottomOf="@+id/tvMotor"
         tools:layout_editor_absoluteX="34dp" />
 
@@ -74,7 +74,7 @@
         android:layout_height="40dp"
         android:layout_marginTop="10dp"
         android:text="TextView"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         app:layout_constraintTop_toBottomOf="@+id/tvCombustivel"
         tools:layout_editor_absoluteX="34dp" />
 
@@ -84,7 +84,7 @@
         android:layout_height="40dp"
         android:layout_marginTop="10dp"
         android:text="TextView"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         app:layout_constraintTop_toBottomOf="@+id/tvMarca"
         tools:layout_editor_absoluteX="34dp" />
 

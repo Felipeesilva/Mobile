@@ -54,6 +54,7 @@ public class DetalhesActivity extends AppCompatActivity {
         tvCor.setText(c.getCor());
         tvMotor.setText(String.valueOf(c.getMotor()));
         tvCombustivel.setText(c.getCombustivel());
+        tvFipe.setText(String.valueOf(c.getFipe()));
 
 
         }
